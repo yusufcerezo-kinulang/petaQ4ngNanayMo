@@ -1,58 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
 body {
-margin: 0;
-font-family: 'Poppins', sans-serif;
-background: linear-gradient(to bottom, #f4efe6, #d6cfc4);
-color: #333;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); /* dark futuristic gradient */
+  color: #e0e0e0;
 }
 nav {
-background: #2f3e2f;
-padding: 15px;
-position: sticky;
-top: 0;
+  background: #0f0f3d; /* dark blue/navy */
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 15px #00ffff; /* neon glow */
 }
 nav a {
-color: #fff;
-margin: 0 15px;
-text-decoration: none;
-font-weight: bold;
+  color: #00ffff; /* neon cyan */
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
 }
 nav a:hover {
-color: #ffd966;
+  color: #ff00ff; /* neon magenta */
+  text-shadow: 0 0 8px #ff00ff;
 }
 .container {
-padding: 30px;
+  padding: 30px;
 }
 .banner {
-background: url("images/mountain.jpg") center/cover;
-color: white;
-padding: 80px;
-text-align: center;
-text-shadow: 2px 2px 5px black;
+  background: url("images/mountain.jpg") center/cover;
+  color: #00ffff; /* neon cyan text */
+  padding: 80px;
+  text-align: center;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
 }
 .card {
-background: white;
-padding: 20px;
-margin: 20px 0;
-border-radius: 15px;
-box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  background: rgba(20, 20, 40, 0.85); /* semi-transparent dark card */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #00ffff;
 }
 img {
-max-width: 100%;
-border-radius: 15px;
-transition: transform 0.3s;
+  max-width: 100%;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 img:hover {
-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ffff, 0 0 30px #ff00ff;
 }
 button {
-padding: 10px 20px;
-background: #2f3e2f;
-color: white;
-border: none;
-border-radius: 10px;
-cursor: pointer;
+  padding: 10px 20px;
+  background: #0f0f3d;
+  color: #00ffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 5px #00ffff, 0 0 10px #ff00ff;
 }
 button:hover {
-background: #4f6f4f;
+  background: #1a1a50;
+  color: #ff00ff;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
 }
