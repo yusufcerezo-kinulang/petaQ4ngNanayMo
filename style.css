@@ -2,39 +2,38 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); /* dark futuristic gradient */
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); 
   color: #e0e0e0;
 }
 nav {
-  background: #0f0f3d; /* dark blue/navy */
+  background: #0f0f3d; 
   padding: 15px;
   position: sticky;
   top: 0;
-  box-shadow: 0 0 15px #00ffff; /* neon glow */
+  box-shadow: 0 0 15px #00ffff; 
 }
 nav a {
-  color: #00ffff; /* neon cyan */
+  color: #00ffff; 
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
   transition: 0.3s;
 }
 nav a:hover {
-  color: #ff00ff; /* neon magenta */
+  color: #ff00ff; 
   text-shadow: 0 0 8px #ff00ff;
 }
 .container {
   padding: 30px;
 }
 .banner {
-  background: url("images/mountain.jpg") center/cover;
-  color: #00ffff; /* neon cyan text */
+  color: #00ffff; 
   padding: 80px;
   text-align: center;
   text-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
 }
 .card {
-  background: rgba(20, 20, 40, 0.85); /* semi-transparent dark card */
+  background: rgba(20, 20, 40, 0.85); 
   padding: 20px;
   margin: 20px 0;
   border-radius: 15px;
